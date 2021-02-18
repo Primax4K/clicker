@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #313234;
+    margin: 0;
+}
+#btn{
+    background: url(../img/emeraldpng.png);
+    background-size: cover;
+
+    width: 10vw;
+    height: 20vh;
+
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-height: 20vh;
+    min-width: 10vw;
+}
