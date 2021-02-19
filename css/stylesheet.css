@@ -5,6 +5,16 @@ body{
     background-color: #313234;
     margin: 0;
 }
+
+#current-cookies{
+    border: solid #39ff14 0.5vh;
+    display: inline-block;
+    padding: 2vh 2.5vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
 #btn{
     background: url(../img/emeraldpng.png);
     background-size: cover;
@@ -21,6 +31,27 @@ body{
     position: absolute;
     top: 30%;
     left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-height: 20vh;
+    min-width: 10vw;
+}
+
+#buy-cpc{
+    background-color: #39ff14;
+
+    width: 10vw;
+    height: 20vh;
+
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+
+    position: absolute;
+    top: 30%;
+    right: 20%;
     transform: translate(-50%, -50%);
 
     min-height: 20vh;
